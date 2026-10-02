@@ -28,7 +28,8 @@ void main() {
   print('--- Tipos y Variables ---');
   print('Usuario: $nombre | Lenguaje: $lenguaje');
   print('Fecha de Inicio: $fechaInicio | Pi: $piValor');
-  print('Ciudad Inicial (null): $ciudad\n');
+  print('Ciudad Inicial (null): $ciudad');
+  print('El precio a gastar es: $precio\n');
 
   /* 4. Colecciones: Listas, Sets y Mapas. */
   // Lista: (List): Ordenada y permite dupliados.
@@ -36,7 +37,7 @@ void main() {
   List<String> tecnologias = ['Dart', 'Pthon', 'Java', 'Dart'];
 
   // Set: Colección de elementos únicos (elimina duplicados automáticamente).
-  Set<String> paises = {'Brasil', 'Chile', 'México', 'Chile'};
+  Set<String> paises = {'Brasil', 'Chile', 'México'};
 
   // Mapa (Maps): Estructura clave-valor.
   Map<String, dynamic> perfil = {
